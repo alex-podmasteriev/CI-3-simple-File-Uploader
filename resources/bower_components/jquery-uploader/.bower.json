@@ -1,0 +1,19 @@
+{
+  "name": "jquery-uploader",
+  "version": "2.0.9",
+  "main": "./dist/jquery-uploader.min.js",
+  "dependencies": {
+    "jquery": "2.1.3"
+  },
+  "homepage": "https://github.com/adrianmalik/jquery-uploader",
+  "_release": "2.0.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.9",
+    "commit": "757e4cbe4febb63928a733934e51b06f459c4155"
+  },
+  "_source": "https://github.com/adrianmalik/jquery-uploader.git",
+  "_target": "^2.0.9",
+  "_originalSource": "https://github.com/adrianmalik/jquery-uploader.git",
+  "_direct": true
+}

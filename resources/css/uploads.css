@@ -1,0 +1,15 @@
+#preview {
+    margin: 2em 0 0 0;
+}
+
+#preview  ul li, #images_list ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: .375em .375em;
+}
+
+#preview  ul li img, #images_list ul li img {
+    height: 200px;
+    width: auto;
+    padding: .125em;
+}
