@@ -1,4 +1,4 @@
-$(document).ready( function() {
+$( function() {
 
     $('#hidden_input_file').upload({
         browser: {

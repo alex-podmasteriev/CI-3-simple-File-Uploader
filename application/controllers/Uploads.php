@@ -8,20 +8,18 @@ class Uploads extends CI_Controller {
         parent::__construct();
 
         $data = [ 'dir' => '/resources/uploads', 'input_name' => 'uploads' ];
-
         $this->load->library( 'Uploader', $data );
-
-        $this->load->library('Lister', $data );
+        $this->load->library( 'Lister', $data );
 
     }
+
 
     public function index() {
 
-
         $images = $this->lister->getFileList( );
-
         $this->load->view( 'uploads', [ 'images' => $images ] );
     }
+
 
     public function save(){
 

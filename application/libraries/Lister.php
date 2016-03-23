@@ -11,12 +11,13 @@ class Lister
     public function getFileList() {
 
         $data = [];
-
+        $i = 0;
         foreach ( new DirectoryIterator( $this->dir ) as $item ) {
 
             if( $item->getFilename() != '.' && $item->getFilename() != '..' ) {
 
-                $data [ $item->getCTime() ] = $item->getFilename();
+                $data [ $i ] = $item->getFilename();
+                $i++;
             }
 
         }

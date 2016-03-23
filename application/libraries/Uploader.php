@@ -26,7 +26,7 @@ class Uploader
                         $name .= '.' . $type;
                         @mkdir( $this->dir, 0777 );
                         copy( $_FILES[ $this->name ][ 'tmp_name' ][ $i ], $this->dir . DIRECTORY_SEPARATOR . $name );
-                        @chmod( $this->dir . DIRECTORY_SEPARATOR . $name, 0777 );
+                        chmod( $this->dir . DIRECTORY_SEPARATOR . $name, 0777 );
                     }
                 }
             }

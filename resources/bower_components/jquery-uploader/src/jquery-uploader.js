@@ -36,7 +36,7 @@ Uploader.Input = function(htmlElement, params) {
         var name = $(htmlElement).attr('name');
         $(htmlElement).removeAttr('name');
         return name;
-    }
+    };
 
     return self;
 };
